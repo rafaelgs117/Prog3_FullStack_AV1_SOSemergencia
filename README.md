@@ -28,7 +28,7 @@ O projeto web não tenta reproduzir a implementação Android. Ele recria a idei
 - página institucional em Next.js + Tailwind
 - testes com Vitest/React Testing Library
 
-O PDF informa que a etapa é 100% front-end e que os dados devem vir de APIs públicas; back-end próprio fica para o Módulo 2. fileciteturn0file0L15-L18
+O PDF informa que a etapa é 100% front-end e que os dados devem vir de APIs públicas; back-end próprio fica para o Módulo 2. 
 
 ## Como executar
 
@@ -54,18 +54,6 @@ npm test
 ```
 
 > Observação: o botão SOS é uma simulação de front-end. Ele não envia mensagens reais nem acessa localização real.
-
-
-## Aula 05 — conferência dos requisitos
-
-- **Axios + GET + useState + useEffect + map:** `react-app/src/pages/Home.jsx`
-- **Next.js + Tailwind:** `next-app/app/page.jsx`
-- **Responsividade `sm/md/lg`:** `next-app/app/page.jsx`
-- **Teste 1:** `react-app/src/test/Card.test.jsx`
-- **Teste 2:** `react-app/src/test/SosButton.test.jsx`
-- **Configuração de testes:** `react-app/src/test/setup.js` usa `@testing-library/jest-dom/vitest`
-- **Deploy React/Vite:** `react-app/vercel.json` + instruções em `react-app/README.md`
-- **Deploy Next.js:** instruções em `next-app/README.md`
 
 ### Deploy
 
